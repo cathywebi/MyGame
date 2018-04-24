@@ -13,5 +13,11 @@ namespace MyGame
 		{
 			InitializeComponent();
 		}
-	}
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await HelloWorldUrhoSurface.Show<HelloWorld>(new Urho.ApplicationOptions(assetsFolder: null));
+        }
+    }
 }

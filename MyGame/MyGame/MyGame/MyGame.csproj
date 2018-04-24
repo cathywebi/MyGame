@@ -17,4 +17,9 @@
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Blender\" />
+    <Folder Include="Assets\Data\Textures\" />
+  </ItemGroup>
 </Project>
